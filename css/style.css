@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --accent-color: blue;
-    --base-color: white;
-    --text-color: hsl(0, 100%, 45%);
-    --input-color: #F3F0FF;                                                                                                                                                                                             
+    --accent-color: rgb(4, 4, 99);
+    --base-color: rgb(255, 0, 0);
+    --text-color: hsl(3, 83%, 40%);
+    --input-color: #efe9e9;                                                                                                                                                                                             
 }
 
 *{
@@ -21,7 +21,7 @@ html{
 
 body{
     min-height: 100vh;
-    background-image: url("../img/c.a.jpg");
+    background-image: url("../img/car5353.jpg");
     background-size: cover;
     background-position: right;
     overflow: hidden;
@@ -29,7 +29,7 @@ body{
 
 .wrapper{
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0);
     height: 100vh;
     width: max(40%, 600px);
     padding: 10px;
@@ -145,7 +145,7 @@ body{
   }
 
   form div.incorrect label{
-    background-color: #f06272;
+    background-color: #df576e;
   }
   form div.incorrect input{
     border-color: #f06272;
